@@ -1,0 +1,36 @@
+caption {
+  caption-side: top;
+  margin-bottom: 30px;
+  font-size: large;
+}
+thead tr,
+tfoot tr {
+  background-color: coral;
+}
+/* убрать пробелы между буньками */
+.products {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+.products th,
+.products td {
+  border: 1px solid black;
+  padding: 4px 8px;
+  text-align: center;
+}
+/* .products tbody tr:hover {
+  background-color: sandybrown;
+} */
+
+.products td:hover {
+  background-color: sandybrown;
+}
+
+.products tbody tr:nth-child(odd) {
+  background-color: beige;
+}
+
+.products tbody tr:nth-child(even) {
+  background-color: azure;
+}
