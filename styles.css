@@ -34,3 +34,16 @@ tfoot tr {
 .products tbody tr:nth-child(even) {
   background-color: azure;
 }
+
+.schedule {
+  margin-top: 100px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 4px 8px;
+}
